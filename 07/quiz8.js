@@ -22,9 +22,9 @@ function animation(result, btn, val) {
   }, 10);
 }
 
-function PrintNum() {
-  num = Math.floor(random($min.value, $max.value));
-}
+// function PrintNum() {
+//   num = Math.floor(random($min.value, $max.value));
+// }
 
 window.onload = function () {
   $btn.addEventListener('click', () => {
