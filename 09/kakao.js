@@ -9,7 +9,7 @@ function success(data) {
     console.log(data);
 }
 function error() {
-    console.log(2);
+    alert('에러');
 }
 
 function search() {
